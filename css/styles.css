@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"); /* Typography */
+
+html {
+	font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+.icons-social i {
+	font-size: 3em;
+}
+
+/* Custom Styles */
+
+body {
+	display: flex;
+	min-height: 100vh;
+	min-width: 100vw;
+	justify-content: center;
+	align-items: center;
+}
+
+#background-video {
+	height: 100vh;
+	width: 100vw;
+	object-fit: cover;
+	position: fixed;
+	animation-delay: 10s;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+}
+
+main > .intro {
+	font-family: "Poppins", sans-serif;
+	font-size: 3.75em;
+	font-weight: 600;
+	transition: 0.3s;
+}
+
+main > .intro:hover {
+	font-size: 3.95em;
+	transition: 0.3s;
+}
+
+main > .tagline {
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 100;
+}
+
+.icons-social i {
+	padding: 10px;
+}
+
+.devto {
+	margin-bottom: -0.2rem;
+}
+
+.devto svg {
+	margin-bottom: -0.2rem;
+	margin-left: 0.675rem;
+	width: 2.65rem;
+	height: 2.65rem;
+}
