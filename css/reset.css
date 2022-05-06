@@ -15,6 +15,8 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: normal;
   position: relative;
   color: #fff;
+  min-height: 100vh;
+  min-width: auto;
 }
 
 ol, ul {
@@ -100,10 +102,10 @@ li {
 	height: calc(100% + 4px);
 	border-radius: 50%;
 	z-index: -1;
-	animation: steam 30s linear infinite;
+	animation: rotation 30s linear infinite;
 }
 
-@keyframes steam {
+@keyframes rotation {
 	0% {
 		background-position: 0 0;
 	}
